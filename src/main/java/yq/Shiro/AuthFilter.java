@@ -7,7 +7,10 @@ import org.apache.shiro.SecurityUtils;
 import org.apache.shiro.subject.Subject;
 import org.apache.shiro.web.filter.authz.AuthorizationFilter;
 import org.springframework.util.Assert;
+import org.springframework.util.StringUtils;
 import yq.entity.Test;
+import yq.entity.UserToken;
+import yq.service.UserTokenService;
 
 import javax.servlet.ServletRequest;
 import javax.servlet.ServletResponse;
@@ -27,12 +30,18 @@ import java.util.List;
 public class AuthFilter extends AuthorizationFilter {
 
 
+
+
+    private final UserTokenService userTokenService;
+
+
     //token
     private final TokenService tokenService;
 
 
-    public AuthFilter(TokenService tokenService){
+    public AuthFilter(TokenService tokenService,UserTokenService userTokenService){
         this.tokenService = tokenService;
+        this.userTokenService = userTokenService;
         System.out.println(tokenService);
     }
 
@@ -47,24 +56,34 @@ public class AuthFilter extends AuthorizationFilter {
      */
     private Boolean authorization(HttpServletRequest request, HttpServletResponse response) {
         try {
-            //获取token并解析
-            String token = request.getHeader(TOKEN);
-            Assert.hasLength(token,"token不能为空");
-            String jsonTest = tokenService.parseJWT(token);
-            Test test = JSON.parseObject(jsonTest, Test.class);
-            Assert.notNull(test,"错误的token");
+            String token = request.getHeader("token");
+            Assert.hasLength(token,"请输入正确的token");
+            String testJson = tokenService.parseJWT(token);
+            Test test = JSON.parseObject(testJson, Test.class);
+            Assert.notNull(test,"请输入正确的token");
+            //到了这里说明身份验证成功了，token是没有问题的
+//            String threadToken = myThreadLocal.get();
+//            if(StringUtils.isEmpty(threadToken)){
+//                //查询数据库 得到token
+//                UserToken userTokenByToken = userTokenService.getUserTokenByToken(token);
+//                myThreadLocal.set(userTokenByToken.getToken());
+//                threadToken = myThreadLocal.get();
+//            }
+//            if(! threadToken.equals(token)){
+//                throw new IllegalArgumentException("与当前登录用户不一致");
+//            }
             Subject subject = getSubject();
             //表示还没有登录  为什么这里要这么写 就是因为shiro我们的缓存是基于session，cookie等
             //如果服务重启了 或者没了cookiet咋办，所以我们就在这里掉用一下shiro的登录
             if(subject.getPrincipal() == null){
                 //那就登录
-                subject.login(new NewAuthenticationToken(test.getPhone(),token));
+                subject.login(new NewAuthenticationToken(test.getId(),token));
                 return true;
             }
             //如果是已经登录的 就进行身份验证
             Long testId = (Long) subject.getPrincipal();
             if(! test.getId().equals(testId)){
-                return false;
+                throw new IllegalArgumentException("与当前登录身份不一致");
             }
             return true;
         } catch (Exception e) {
@@ -146,7 +165,6 @@ public class AuthFilter extends AuthorizationFilter {
         String[] values = (String[]) mappedValue;
         HttpServletRequest newRequest = (HttpServletRequest) request;
         HttpServletResponse newResponse = (HttpServletResponse) response;
-        Subject subject = getSubject();
         //身份认证
         if(values == null){
             return authorization(newRequest,newResponse);

@@ -26,4 +26,9 @@ public class MySqlServiceImpl extends BaseApiService implements MySqlService {
     public void addTest(Test test) {
         Assert.notNull(mySqlMapper.save(test),"创建Test失败");
     }
+
+    @Override
+    public Test getTestByPhone(String phone) {
+        return mySqlMapper.findByPhone(phone);
+    }
 }

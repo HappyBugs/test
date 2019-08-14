@@ -15,13 +15,13 @@ import org.apache.shiro.authc.AuthenticationToken;
 @AllArgsConstructor
 public class NewAuthenticationToken implements AuthenticationToken {
 
-    private String phone;
+    private Long id;
     private String token;
 
     //得到主体
     @Override
     public Object getPrincipal() {
-        return this.phone;
+        return this.id;
     }
 
     //得到凭证

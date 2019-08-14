@@ -11,6 +11,7 @@ import org.apache.shiro.realm.AuthorizingRealm;
 import org.apache.shiro.subject.PrincipalCollection;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
+import org.springframework.util.Assert;
 import yq.entity.Test;
 import yq.service.MySqlService;
 
@@ -66,16 +67,12 @@ public class MyRealm extends AuthorizingRealm {
     @Override
     protected AuthenticationInfo doGetAuthenticationInfo(AuthenticationToken auth) throws AuthenticationException {
     	//因为我们在用户登录的时候传递的参数 主体就是电话号码
-		String phone = auth.getPrincipal().toString();
+		Long id = (Long) auth.getPrincipal();
 		//证明用户信息的东西
 		String token =  auth.getCredentials().toString();
-		//因为我们传递的是json类型的Test对象
-        String jsonTest = tokenService.parseJWT(token);
-        Test test = JSON.parseObject(jsonTest, Test.class);
-        if(! test.getPhone().equals(phone)){
-            throw new AuthenticationException("用户身份验证失败");
-        }
+        Test testById = mySqlService.getTestById(id);
+        Assert.notNull(testById,"身份验证失败");
         //保存用户信息？test, token, "my_realm"
-        return new SimpleAuthenticationInfo(test.getId(),token,"myRealm");
+        return new SimpleAuthenticationInfo(id,token,"myRealm");
     }
 }

@@ -5,6 +5,7 @@ import lombok.Data;
 import lombok.NoArgsConstructor;
 
 import javax.persistence.Entity;
+import javax.persistence.Id;
 
 @Data
 @Entity
@@ -12,7 +13,8 @@ import javax.persistence.Entity;
 @AllArgsConstructor
 public class UserToken {
 
-    private String userId;
+    @Id
+    private Long userId;
     private String token;
 
 }

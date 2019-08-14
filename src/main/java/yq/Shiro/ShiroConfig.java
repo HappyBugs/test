@@ -9,6 +9,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.context.annotation.DependsOn;
+import yq.service.UserTokenService;
+import yq.serviceimpl.UserTokenServiceImpl;
 
 import javax.servlet.Filter;
 import java.util.HashMap;
@@ -18,14 +20,16 @@ import java.util.Map;
 @Configuration
 public class ShiroConfig {
 
-
-    @Autowired
-    private TokenService tokenService;
-
     @Bean
     public TokenService tokenService(){
         return new TokenService();
     }
+
+    @Bean
+    public UserTokenService userTokenService(){
+        return new UserTokenServiceImpl();
+    }
+
 
     //常量一：表示是角色
     public static final String CONS_TYPE_ONE = "ROLE";
@@ -52,7 +56,7 @@ public class ShiroConfig {
         ShiroFilterFactoryBean shiroFilterFactoryBean = new ShiroFilterFactoryBean();
         shiroFilterFactoryBean.setSecurityManager(securityManager);
         Map<String, Filter> myFilters = new HashMap<>();
-        myFilters.put("authFilter",new AuthFilter(tokenService()));
+        myFilters.put("authFilter",new AuthFilter(tokenService(),userTokenService()));
         shiroFilterFactoryBean.setFilters(myFilters);
         Map<String,String> map = new LinkedHashMap<>();
         //用户登录 自由访问

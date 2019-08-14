@@ -14,4 +14,6 @@ public interface MySqlService {
 
     void addTest(Test test);
 
+    Test getTestByPhone(String phone);
+
 }

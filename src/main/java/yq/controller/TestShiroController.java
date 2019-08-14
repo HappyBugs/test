@@ -15,7 +15,9 @@ import yq.Shiro.TokenService;
 import yq.commons.responseBase.BaseApiService;
 import yq.commons.responseBase.ResponseBase;
 import yq.entity.Test;
+import yq.entity.UserToken;
 import yq.service.MySqlService;
+import yq.service.UserTokenService;
 
 @RestController
 public class TestShiroController extends BaseApiService {
@@ -25,6 +27,10 @@ public class TestShiroController extends BaseApiService {
 
     @Autowired
     private MySqlService mySqlService;
+
+    @Autowired
+    private UserTokenService userTokenService;
+
 
     /*
    用户登录 需要传递用户邮箱和密码
@@ -45,9 +51,11 @@ public class TestShiroController extends BaseApiService {
         //设置登录token  过期时间为30分钟
         String token = tokenService.createToken(JSON.toJSONString(testById));
         //这个类 是我们继承与shiro的AuthenticationToken 这样就可以做一些定制化的东西
-        NewAuthenticationToken newAuthenticationToken = new NewAuthenticationToken(testById.getPhone(), token);
+        NewAuthenticationToken newAuthenticationToken = new NewAuthenticationToken(testById.getId(), token);
         //登录操作
         subject.login(newAuthenticationToken);
+        UserToken userToken = new UserToken(testById.getId(),token);
+        userTokenService.updateAndSaveUserToken(userToken);
         //返回客户端数据
         JSONObject jsonObject = new JSONObject();
         jsonObject.put(AuthFilter.TOKEN, token);
