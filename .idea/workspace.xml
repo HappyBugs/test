@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="057fa03d-21fb-482e-ac1b-26d4fb1014e5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/MyQueue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java" afterDir="false" />
-    </list>
+    <list default="true" id="057fa03d-21fb-482e-ac1b-26d4fb1014e5" name="Default Changelist" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -21,21 +18,10 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyQueue.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+            <state relative-caret-position="133">
+              <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#MyThreadPool#0;class#MyThreadPool#0" />
-                <element signature="class#Producer#0;class#MyThreadPool#0" />
-                <element signature="method#create#0;class#Producer#0;class#MyThreadPool#0" />
-                <element signature="class#Consumer#0;class#MyThreadPool#0" />
-                <element signature="method#start#0;class#MyThreadPool#0" />
-                <element signature="class#MyArrAyBlockingQueue#0;class#MyThreadPool#0" />
-                <element signature="class#MySynchronousQueue#0;class#MyThreadPool#0" />
-                <element signature="class#MyPriorityBlockingQueue#0;class#MyThreadPool#0" />
-                <element signature="class#MyCountDownLatch#0;class#MyThreadPool#0" />
-                <element signature="class#MyCyclicBarrier#0;class#MyThreadPool#0" />
-                <element signature="class#MySemaphore#0;class#MyThreadPool#0" />
               </folding>
             </state>
           </provider>
@@ -287,11 +273,19 @@
       <option name="project" value="LOCAL" />
       <updated>1566546750571</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="新增Communication">
+      <created>1566548996054</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1566548996054</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -302,7 +296,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.08923513" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2266289" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4206799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -632,47 +626,6 @@
     <entry file="file://$PROJECT_DIR$/记录">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="311">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/Communication.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="class#MyThread#0;class#Communication#0" />
-            <element signature="e#571#572#0" expanded="true" />
-            <element signature="e#627#628#0" expanded="true" />
-            <element signature="e#2081#2082#0" expanded="true" />
-            <element signature="e#2137#2138#0" expanded="true" />
-            <element signature="class#MyThread2#0;class#Communication#0" />
-            <element signature="class#ConsumerThread#0;class#MyThread2#0;class#Communication#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/yq/SpringSecurity/AuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -716,23 +669,49 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyQueue.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="14" selection-start-line="9" selection-start-column="14" selection-end-line="9" selection-end-column="14" />
+        <state relative-caret-position="513">
+          <caret line="27" column="34" lean-forward="true" selection-start-line="27" selection-start-column="34" selection-end-line="27" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="method#MyThreadPool#0;class#MyThreadPool#0" />
-            <element signature="class#Producer#0;class#MyThreadPool#0" />
-            <element signature="method#create#0;class#Producer#0;class#MyThreadPool#0" />
-            <element signature="class#Consumer#0;class#MyThreadPool#0" />
-            <element signature="method#start#0;class#MyThreadPool#0" />
-            <element signature="class#MyArrAyBlockingQueue#0;class#MyThreadPool#0" />
-            <element signature="class#MySynchronousQueue#0;class#MyThreadPool#0" />
-            <element signature="class#MyPriorityBlockingQueue#0;class#MyThreadPool#0" />
-            <element signature="class#MyCountDownLatch#0;class#MyThreadPool#0" />
-            <element signature="class#MyCyclicBarrier#0;class#MyThreadPool#0" />
-            <element signature="class#MySemaphore#0;class#MyThreadPool#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="25" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/Communication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="11" column="26" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="26" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#MyThread#0;class#Communication#0" />
+            <element signature="class#MyThread2#0;class#Communication#0" />
+            <element signature="class#ConsumerThread#0;class#MyThread2#0;class#Communication#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="13" column="4" selection-start-line="13" selection-start-column="4" selection-end-line="13" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

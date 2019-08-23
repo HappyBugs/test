@@ -12,6 +12,7 @@ import java.util.concurrent.*;
 @Data
 public class MyQueue implements Comparable<MyQueue> {
 
+
     private String name;
     private String sex;
     private Integer level;
