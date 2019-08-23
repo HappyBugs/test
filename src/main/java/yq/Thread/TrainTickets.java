@@ -3,7 +3,9 @@ package yq.Thread;
 import lombok.Data;
 
 
-//火车票
+/**
+ * java并发编程之内存模型&多线程三大特性
+ */
 @Data
 public class TrainTickets {
 

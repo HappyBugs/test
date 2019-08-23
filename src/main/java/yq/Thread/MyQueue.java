@@ -10,13 +10,13 @@ import java.util.concurrent.*;
  * java并发编程之队列
  */
 @Data
-public class MyThreadPool implements Comparable<MyThreadPool> {
+public class MyQueue implements Comparable<MyQueue> {
 
     private String name;
     private String sex;
     private Integer level;
 
-    public MyThreadPool(String name, String sex, Integer level) {
+    public MyQueue(String name, String sex, Integer level) {
         this.name = name;
         this.sex = sex;
         this.level = level;
@@ -24,36 +24,36 @@ public class MyThreadPool implements Comparable<MyThreadPool> {
 
     //设置优先级
     @Override
-    public int compareTo(MyThreadPool o) {
+    public int compareTo(MyQueue o) {
         return this.level.compareTo(o.getLevel());
     }
 
     //生产者
     static final class Producer extends Thread {
 
-        private Queue<MyThreadPool> queue;
+        private Queue<MyQueue> queue;
 
-        public Producer(Queue<MyThreadPool> queue) {
+        public Producer(Queue<MyQueue> queue) {
             this.queue = queue;
         }
 
         public void create() {
             int i = 0;
             int index = 20;
-            MyThreadPool myThreadPool = null;
+            MyQueue myQueue = null;
             while (true) {
                 try {
                     Thread.sleep(1000);
                     //永远都是0 或者1 要不是小红 要不是张三
                     if (i % 2 == 0) {
                         //这里就是为了产生出不同的优先级，
-                        myThreadPool = new MyThreadPool("张三", "男", --index);
+                        myQueue = new MyQueue("张三", "男", --index);
                     } else {
                         //这里就是为了产生出不同的优先级，
-                        myThreadPool = new MyThreadPool("小红", "女", i);
+                        myQueue = new MyQueue("小红", "女", i);
                     }
-                    queue.offer(myThreadPool);
-                    System.out.println("生产完毕：" + myThreadPool.toString());
+                    queue.offer(myQueue);
+                    System.out.println("生产完毕：" + myQueue.toString());
                     i++;
                 } catch (InterruptedException e) {
                     e.printStackTrace();
@@ -70,9 +70,9 @@ public class MyThreadPool implements Comparable<MyThreadPool> {
     //消费者
     static final class Consumer extends Thread {
 
-        private Queue<MyThreadPool> queue;
+        private Queue<MyQueue> queue;
 
-        public Consumer(Queue<MyThreadPool> queue) {
+        public Consumer(Queue<MyQueue> queue) {
             this.queue = queue;
         }
 
@@ -80,7 +80,7 @@ public class MyThreadPool implements Comparable<MyThreadPool> {
             try {
                 while (true) {
                     Thread.sleep(1000);
-                    MyThreadPool poll = queue.poll();
+                    MyQueue poll = queue.poll();
                     System.out.println("开始消费：" + poll.toString());
                 }
             } catch (InterruptedException e) {
@@ -113,7 +113,7 @@ public class MyThreadPool implements Comparable<MyThreadPool> {
     @Data
     static final class MyArrAyBlockingQueue {
         public static void main(String[] args) {
-            ArrayBlockingQueue<MyThreadPool> arrAyBlockingQueues = new ArrayBlockingQueue<>(4);
+            ArrayBlockingQueue<MyQueue> arrAyBlockingQueues = new ArrayBlockingQueue<>(4);
             start(arrAyBlockingQueues);
         }
     }
@@ -124,7 +124,7 @@ public class MyThreadPool implements Comparable<MyThreadPool> {
      */
     static final class MySynchronousQueue {
         public static void main(String[] args) {
-            SynchronousQueue<MyThreadPool> synchronousQueue = new SynchronousQueue<>();
+            SynchronousQueue<MyQueue> synchronousQueue = new SynchronousQueue<>();
             start(synchronousQueue);
         }
     }
@@ -134,7 +134,7 @@ public class MyThreadPool implements Comparable<MyThreadPool> {
      */
     static final class MyPriorityBlockingQueue {
         public static void main(String[] args) {
-            PriorityBlockingQueue<MyThreadPool> priorityBlockingQueue = new PriorityBlockingQueue<>();
+            PriorityBlockingQueue<MyQueue> priorityBlockingQueue = new PriorityBlockingQueue<>();
             start(priorityBlockingQueue);
 
         }
