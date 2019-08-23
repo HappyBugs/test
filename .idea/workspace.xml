@@ -2,51 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="057fa03d-21fb-482e-ac1b-26d4fb1014e5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/yq/MyThread/CreateThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/test.kotlin_module" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/MyThread/CreateThread$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/MyThread/CreateThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThread$ConsumerThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThread$ProducerThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThread.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadLocal$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadLocal.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$Consumer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MyArrAyBlockingQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MyCountDownLatch.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MyCyclicBarrier.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MyPriorityBlockingQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MySemaphore.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MySynchronousQueue.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$Producer.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/TrainTickets$1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/TrainTickets$2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/TrainTickets.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-yq.AppTest.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/surefire-reports/yq.AppTest.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT.jar.original" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/Communication.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/AuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/MyRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/MyRealm.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/MyThreadLocal.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/NewAuthenticationToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/NewAuthenticationToken.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/controller/TestShiroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/controller/TestShiroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/mapper/MySqlMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/mapper/MySqlMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/service/MySqlService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/service/MySqlService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/serviceimpl/MySqlServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/serviceimpl/MySqlServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/yq/MyThread/CreateThread.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yq/MyThread/CreateThread$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yq/MyThread/CreateThread.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MySemaphore.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MySemaphore.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/记录" beforeDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -61,34 +23,41 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="158">
-              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+            <state relative-caret-position="437">
+              <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="method#MyThreadPool#0;class#MyThreadPool#0" />
-                <element signature="class#Producer#0;class#MyThreadPool#0" />
-                <element signature="method#create#0;class#Producer#0;class#MyThreadPool#0" />
-                <element signature="class#Consumer#0;class#MyThreadPool#0" />
-                <element signature="method#start#0;class#MyThreadPool#0" />
-                <element signature="class#MyArrAyBlockingQueue#0;class#MyThreadPool#0" />
-                <element signature="class#MySynchronousQueue#0;class#MyThreadPool#0" />
-                <element signature="class#MyPriorityBlockingQueue#0;class#MyThreadPool#0" />
-                <element signature="e#3889#3890#0" expanded="true" />
-                <element signature="e#3949#3950#0" expanded="true" />
-                <element signature="class#MySemaphore#0;class#MyThreadPool#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" column="20" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="20" />
+            <state relative-caret-position="311">
+              <caret line="33" selection-start-line="33" selection-end-line="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/Communication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="207" selection-start-line="207" selection-end-line="207" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="class#MyThread#0;class#Communication#0" />
+                <element signature="e#571#572#0" expanded="true" />
+                <element signature="e#627#628#0" expanded="true" />
+                <element signature="e#2081#2082#0" expanded="true" />
+                <element signature="e#2137#2138#0" expanded="true" />
+                <element signature="class#ConsumerThread#0;class#MyThread2#0;class#Communication#0" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -122,6 +91,7 @@
         <option value="$PROJECT_DIR$/src/main/java/yq/Thread/ProducerThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java" />
         <option value="$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yq/Thread/Communication.java" />
       </list>
     </option>
   </component>
@@ -205,13 +175,6 @@
               <item name="yq" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -236,9 +199,22 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.MyThreadPool$MySemaphore">
-    <configuration name="MyThreadPool$MyArrAyBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="yq.Thread.MyThreadPool$MyArrAyBlockingQueue" />
+  <component name="RunManager" selected="Application.Communication$MyThread2">
+    <configuration name="Communication$MyThread2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yq.Thread.Communication$MyThread2" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yq.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Communication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yq.Thread.Communication" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
@@ -276,19 +252,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MyThreadPool$MyPriorityBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="yq.Thread.MyThreadPool$MyPriorityBlockingQueue" />
-      <module name="test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="yq.Thread.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="MyThreadPool$MySemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="yq.Thread.MyThreadPool$MySemaphore" />
       <module name="test" />
@@ -304,11 +267,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Communication$MyThread2" />
+        <item itemvalue="Application.Communication" />
         <item itemvalue="Application.MyThreadPool$MySemaphore" />
         <item itemvalue="Application.MyThreadPool$MyCyclicBarrier" />
         <item itemvalue="Application.MyThreadPool$MyCountDownLatch" />
-        <item itemvalue="Application.MyThreadPool$MyPriorityBlockingQueue" />
-        <item itemvalue="Application.MyThreadPool$MyArrAyBlockingQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -323,10 +286,19 @@
       <option name="presentableId" value="Default" />
       <updated>1565920350268</updated>
     </task>
+    <task id="LOCAL-00001" summary="新增java多线等">
+      <created>1566532366179</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1566532366179</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -337,7 +309,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15014164" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.1388102" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4206799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -356,6 +328,10 @@
       <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="新增java多线等" />
+    <option name="LAST_COMMIT_MESSAGE" value="新增java多线等" />
+  </component>
   <component name="editorHistoryManager">
     <entry file="jar://D:/ProgramFiles/Java/jdk1.8/jre/lib/javaws.jar!/com/sun/javaws/ui/JavawsSysRun.class">
       <provider selected="true" editor-type-id="text-editor">
@@ -363,13 +339,6 @@
           <folding>
             <element signature="e#0#6750#0" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/MyThread/CreateThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -422,16 +391,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
           <caret line="294" column="51" lean-forward="true" selection-start-line="294" selection-start-column="51" selection-end-line="294" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="137">
-          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -543,13 +502,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="131">
           <caret line="138" column="18" lean-forward="true" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="532">
-          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
@@ -685,8 +637,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="158">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="664">
+          <caret line="215" column="34" lean-forward="true" selection-start-line="215" selection-start-column="25" selection-end-line="215" selection-end-column="34" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#MyThreadPool#0;class#MyThreadPool#0" />
@@ -697,9 +649,54 @@
             <element signature="class#MyArrAyBlockingQueue#0;class#MyThreadPool#0" />
             <element signature="class#MySynchronousQueue#0;class#MyThreadPool#0" />
             <element signature="class#MyPriorityBlockingQueue#0;class#MyThreadPool#0" />
+            <element signature="class#MyCountDownLatch#0;class#MyThreadPool#0" />
             <element signature="e#3889#3890#0" expanded="true" />
             <element signature="e#3949#3950#0" expanded="true" />
+            <element signature="class#MyCyclicBarrier#0;class#MyThreadPool#0" />
             <element signature="class#MySemaphore#0;class#MyThreadPool#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/MyThread/CreateThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/记录">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="311">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/Communication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="207" selection-start-line="207" selection-end-line="207" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="class#MyThread#0;class#Communication#0" />
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#627#628#0" expanded="true" />
+            <element signature="e#2081#2082#0" expanded="true" />
+            <element signature="e#2137#2138#0" expanded="true" />
+            <element signature="class#ConsumerThread#0;class#MyThread2#0;class#Communication#0" />
           </folding>
         </state>
       </provider>
