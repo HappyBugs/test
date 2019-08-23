@@ -6,7 +6,9 @@ import lombok.Data;
 import java.util.Queue;
 import java.util.concurrent.*;
 
-//
+/**
+ * java并发编程之队列
+ */
 @Data
 public class MyThreadPool implements Comparable<MyThreadPool> {
 
