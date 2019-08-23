@@ -1,38 +1,52 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="839c9044-23ca-4f8a-b03c-3622ade1fac1" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yq/mapper/UserTokenRepo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yq/service/UserTokenService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/yq/serviceimpl/UserTokenServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="057fa03d-21fb-482e-ac1b-26d4fb1014e5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/yq/MyThread/CreateThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/META-INF/test.kotlin_module" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/MyThread/CreateThread$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/MyThread/CreateThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThread$ConsumerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThread$ProducerThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThread.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadLocal$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadLocal.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$Consumer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MyArrAyBlockingQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MyCountDownLatch.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MyCyclicBarrier.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MyPriorityBlockingQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MySemaphore.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$MySynchronousQueue.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool$Producer.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/MyThreadPool.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/TrainTickets$1.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/TrainTickets$2.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/yq/Thread/TrainTickets.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-yq.AppTest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/surefire-reports/yq.AppTest.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/test-1.0-SNAPSHOT.jar.original" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/Shiro/AuthFilter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/Shiro/AuthFilter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/Shiro/MyRealm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/Shiro/MyRealm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/Shiro/NewAuthenticationToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/Shiro/NewAuthenticationToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/Shiro/ShiroConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/Shiro/ShiroConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/controller/TestShiroController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/controller/TestShiroController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/entity/UserToken.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/entity/UserToken.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/mapper/MySqlMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/mapper/MySqlMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/service/MySqlService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/service/MySqlService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/yq/serviceimpl/MySqlServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/yq/serviceimpl/MySqlServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/META-INF/test.kotlin_module" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/AuthFilter.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/AuthFilter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/LoginFilter.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/MyRealm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/MyRealm.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/MyThreadLocal.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/NewAuthenticationToken.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/NewAuthenticationToken.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/ShiroConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/ShiroConfig.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/Shiro/TokenService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/Shiro/TokenService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/commons/WebLog/DIYException.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/commons/WebLog/DIYException.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/commons/WebLog/WebLogImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/commons/WebLog/WebLogImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/commons/responseBase/ResponseBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/commons/responseBase/ResponseBase.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/yq/controller/TestShiroController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/controller/TestShiroController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/yq/entity/Test.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/entity/Test.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/未完成.txt" beforeDir="false" afterPath="$PROJECT_DIR$/未完成.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yq/mapper/MySqlMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/mapper/MySqlMapper.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yq/service/MySqlService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/service/MySqlService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/yq/serviceimpl/MySqlServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/yq/serviceimpl/MySqlServiceImpl.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -43,37 +57,38 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="DefaultGradleProjectSettings">
-    <option name="testRunner" value="GRADLE" />
-    <option name="delegatedBuild" value="true" />
+    <option name="isMigrated" value="true" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Shiro/AuthFilter.java">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="684">
-              <caret line="84" column="27" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="27" />
+            <state relative-caret-position="158">
+              <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
               <folding>
                 <element signature="imports" expanded="true" />
+                <element signature="method#MyThreadPool#0;class#MyThreadPool#0" />
+                <element signature="class#Producer#0;class#MyThreadPool#0" />
+                <element signature="method#create#0;class#Producer#0;class#MyThreadPool#0" />
+                <element signature="class#Consumer#0;class#MyThreadPool#0" />
+                <element signature="method#start#0;class#MyThreadPool#0" />
+                <element signature="class#MyArrAyBlockingQueue#0;class#MyThreadPool#0" />
+                <element signature="class#MySynchronousQueue#0;class#MyThreadPool#0" />
+                <element signature="class#MyPriorityBlockingQueue#0;class#MyThreadPool#0" />
+                <element signature="e#3889#3890#0" expanded="true" />
+                <element signature="e#3949#3950#0" expanded="true" />
+                <element signature="class#MySemaphore#0;class#MyThreadPool#0" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/未完成.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Shiro/MyRealm.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="67" column="56" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="56" />
+            <state relative-caret-position="190">
+              <caret line="10" column="20" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -83,14 +98,15 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>set</find>
+      <find>2</find>
+      <find>init</find>
+      <find>acquire</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -99,23 +115,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/yq/mapper/TokenRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/service/TokenService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/service/UserTokenService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/entity/UserToken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/mapper/UserTokenRepo.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/serviceimpl/UserTokenServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/application.yml" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/Shiro/MyThreadLocal.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/Shiro/ShiroConfig.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/service/MySqlService.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/mapper/MySqlMapper.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/serviceimpl/MySqlServiceImpl.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/controller/TestShiroController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/Shiro/NewAuthenticationToken.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/Shiro/AuthFilter.java" />
-        <option value="$PROJECT_DIR$/src/main/java/yq/Shiro/MyRealm.java" />
-        <option value="$PROJECT_DIR$/未完成.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/yq/MyThread/CreateThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yq/Thread/ConsumerThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yq/Thread/ProducerThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java" />
+        <option value="$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java" />
       </list>
     </option>
   </component>
@@ -128,10 +134,26 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="test" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+          <item name="Lifecycle" type="58874e2:MavenProjectsStructure$LifecycleNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="961" />
+    <option name="x" value="960" />
     <option name="width" value="650" />
-    <option name="height" value="1043" />
+    <option name="height" value="1045" />
   </component>
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -141,8 +163,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -183,43 +203,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="controller" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="serviceimpl" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="test" type="b2602c69:ProjectViewProjectNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="yq" type="462c0819:PsiDirectoryNode" />
-              <item name="Shiro" type="462c0819:PsiDirectoryNode" />
+              <item name="Thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="test" type="b2602c69:ProjectViewProjectNode" />
@@ -232,6 +216,8 @@
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -250,13 +236,65 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="yq.App" />
+  <component name="RunManager" selected="Application.MyThreadPool$MySemaphore">
+    <configuration name="MyThreadPool$MyArrAyBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yq.Thread.MyThreadPool$MyArrAyBlockingQueue" />
       <module name="test" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="yq.*" />
+          <option name="PATTERN" value="yq.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPool$MyCountDownLatch" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yq.Thread.MyThreadPool$MyCountDownLatch" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yq.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPool$MyCyclicBarrier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yq.Thread.MyThreadPool$MyCyclicBarrier" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yq.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPool$MyPriorityBlockingQueue" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yq.Thread.MyThreadPool$MyPriorityBlockingQueue" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yq.Thread.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MyThreadPool$MySemaphore" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="yq.Thread.MyThreadPool$MySemaphore" />
+      <module name="test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="yq.Thread.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -266,7 +304,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.App" />
+        <item itemvalue="Application.MyThreadPool$MySemaphore" />
+        <item itemvalue="Application.MyThreadPool$MyCyclicBarrier" />
+        <item itemvalue="Application.MyThreadPool$MyCountDownLatch" />
+        <item itemvalue="Application.MyThreadPool$MyPriorityBlockingQueue" />
+        <item itemvalue="Application.MyThreadPool$MyArrAyBlockingQueue" />
       </list>
     </recent_temporary>
   </component>
@@ -275,59 +317,59 @@
   </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="839c9044-23ca-4f8a-b03c-3622ade1fac1" name="Default Changelist" comment="" />
-      <created>1565754009908</created>
+      <changelist id="057fa03d-21fb-482e-ac1b-26d4fb1014e5" name="Default Changelist" comment="" />
+      <created>1565920350268</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1565754009908</updated>
+      <updated>1565920350268</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2613941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" weight="0.3286119" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.23229462" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.11898017" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.15014164" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4206799" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Maven" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.72521245" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3286119" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" weight="0.3297587" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
     </layout>
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/util/StringUtils.java">
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/jre/lib/javaws.jar!/com/sun/javaws/ui/JavawsSysRun.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="92" column="26" selection-start-line="92" selection-start-column="26" selection-end-line="92" selection-end-column="26" />
+        <state relative-caret-position="-1254">
           <folding>
-            <element signature="e#3355#3356#0" expanded="true" />
-            <element signature="e#3400#3401#0" expanded="true" />
-            <element signature="e#4602#4603#0" expanded="true" />
-            <element signature="e#4647#4648#0" expanded="true" />
-            <element signature="e#6243#6244#0" expanded="true" />
-            <element signature="e#6309#6310#0" expanded="true" />
+            <element signature="e#0#6750#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/MyThread/CreateThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="380">
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
@@ -338,233 +380,327 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/util/Assert.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="179">
-          <caret line="229" column="60" lean-forward="true" selection-start-line="228" selection-start-column="7" selection-end-line="229" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/mapper/UserTokenRepo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="53" selection-start-line="9" selection-start-column="48" selection-end-line="9" selection-end-column="53" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/yq/controller/UserController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-551">
-          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.8.RELEASE/spring-tx-5.1.8.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="97" selection-start-line="97" selection-end-line="97" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/ReflectiveMethodInvocation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="162" selection-start-line="162" selection-end-line="162" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-tx/5.1.8.RELEASE/spring-tx-5.1.8.RELEASE-sources.jar!/org/springframework/transaction/interceptor/TransactionAspectSupport.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="294" selection-start-line="294" selection-end-line="294" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/commons/WebLog/WebLogImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="69" selection-start-line="69" selection-end-line="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/aspectj/AbstractAspectJAdvice.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="651" selection-start-line="651" selection-end-line="651" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/interceptor/ExposeInvocationInterceptor.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="95" selection-start-line="95" selection-end-line="95" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.1.8.RELEASE/spring-aop-5.1.8.RELEASE-sources.jar!/org/springframework/aop/framework/CglibAopProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="693" selection-start-line="693" selection-end-line="693" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.1.8.RELEASE/spring-web-5.1.8.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="196" selection-start-line="196" selection-end-line="196" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/5.1.8.RELEASE/spring-webmvc-5.1.8.RELEASE-sources.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="50">
-          <caret line="899" selection-start-line="899" selection-end-line="899" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/entity/UserToken.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="16" column="21" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.1.8.RELEASE/spring-core-5.1.8.RELEASE-sources.jar!/org/springframework/cglib/proxy/MethodProxy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="217" selection-start-line="217" selection-end-line="217" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/service/UserTokenService.java">
-      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
-          <caret line="4" column="17" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="513">
-          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+        <state relative-caret-position="171">
+          <caret line="9" column="10" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="10" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Shiro/TokenService.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21.jar!/org/apache/catalina/valves/AbstractAccessLogValve.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="23" column="13" selection-start-line="23" selection-start-column="13" selection-end-line="23" selection-end-column="13" />
+        <state relative-caret-position="121">
+          <caret line="49" column="73" lean-forward="true" selection-start-line="49" selection-start-column="73" selection-end-line="49" selection-end-column="73" />
+          <folding>
+            <element signature="e#0#46144#0" expanded="true" />
+            <element signature="e#2006#2283#0" expanded="true" />
+            <element signature="e#2282#2283#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/lang/ThreadLocal.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="125" column="28" selection-start-line="125" selection-start-column="16" selection-end-line="125" selection-end-column="28" />
+        <state relative-caret-position="2964">
+          <caret line="186" column="21" selection-start-line="186" selection-start-column="21" selection-end-line="186" selection-end-column="21" />
           <folding>
-            <element signature="e#4309#4310#0" expanded="true" />
-            <element signature="e#4336#4337#0" expanded="true" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Shiro/ShiroConfig.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/ConsumerThread.java" />
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/ProducerThread.java" />
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/locks/Condition.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="266">
-          <caret line="54" column="86" lean-forward="true" selection-start-line="54" selection-start-column="86" selection-end-line="54" selection-end-column="86" />
+        <state relative-caret-position="403">
+          <caret line="294" column="51" lean-forward="true" selection-start-line="294" selection-start-column="51" selection-end-line="294" selection-end-column="51" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Shiro/MyThreadLocal.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="137">
+          <caret line="23" column="43" selection-start-line="23" selection-start-column="43" selection-end-line="23" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-context/5.1.8.RELEASE/spring-context-5.1.8.RELEASE.jar!/org/springframework/scheduling/concurrent/ThreadPoolTaskExecutor.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-798">
+          <caret line="30" column="35" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#8021#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/tomcat/embed/tomcat-embed-core/9.0.21/tomcat-embed-core-9.0.21-sources.jar!/org/apache/tomcat/util/threads/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="228">
-          <caret line="14" column="13" lean-forward="true" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+          <caret line="35" column="31" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/service/MySqlService.java">
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/Executor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
+        <state relative-caret-position="219">
+          <caret line="124" column="13" lean-forward="true" selection-start-line="124" selection-start-column="13" selection-end-line="124" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/mapper/MySqlMapper.java">
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/AbstractExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="10" column="4" lean-forward="true" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="4" />
+        <state relative-caret-position="226">
+          <caret line="70" column="63" lean-forward="true" selection-start-line="70" selection-start-column="63" selection-end-line="70" selection-end-column="63" />
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.1.9.RELEASE/spring-data-jpa-2.1.9.RELEASE-sources.jar!/org/springframework/data/jpa/repository/JpaRepository.java">
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/ExecutorService.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="35" column="17" selection-start-line="35" selection-start-column="17" selection-end-line="35" selection-end-column="17" />
+        <state relative-caret-position="-675">
+          <caret line="131" column="48" lean-forward="true" selection-start-line="131" selection-start-column="48" selection-end-line="131" selection-end-column="48" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/serviceimpl/MySqlServiceImpl.java">
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/ThreadPoolExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="31" column="46" lean-forward="true" selection-start-line="31" selection-start-column="46" selection-end-line="31" selection-end-column="46" />
+        <state relative-caret-position="-466">
+          <caret line="545" column="50" selection-start-line="545" selection-start-column="50" selection-end-line="545" selection-end-column="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/Executors.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="123">
+          <caret line="190" column="85" selection-start-line="190" selection-start-column="72" selection-end-line="190" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/lang/Runnable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-101">
+          <caret line="50" column="28" lean-forward="true" selection-start-line="50" selection-start-column="28" selection-end-line="50" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/CyclicBarrier.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="8056">
+          <caret line="462" column="55" selection-start-line="456" selection-start-column="6" selection-end-line="462" selection-end-column="55" />
           <folding>
-            <element signature="e#836#837#0" expanded="true" />
-            <element signature="e#897#898#0" expanded="true" />
+            <element signature="e#9581#9582#0" expanded="true" />
+            <element signature="e#9616#9617#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/serviceimpl/UserTokenServiceImpl.java">
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/Semaphore.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="422" column="26" lean-forward="true" selection-start-line="412" selection-start-column="7" selection-end-line="422" selection-end-column="26" />
+          <folding>
+            <element signature="e#12004#12005#0" expanded="true" />
+            <element signature="e#12041#12042#0" expanded="true" />
+            <element signature="e#15885#15886#0" expanded="true" />
+            <element signature="e#15922#15923#0" expanded="true" />
+            <element signature="e#24977#24978#0" expanded="true" />
+            <element signature="e#25017#25018#0" expanded="true" />
+            <element signature="e#25191#25192#0" expanded="true" />
+            <element signature="e#25233#25234#0" expanded="true" />
+            <element signature="e#26572#26573#0" expanded="true" />
+            <element signature="e#26618#26619#0" expanded="true" />
+            <element signature="e#27089#27090#0" expanded="true" />
+            <element signature="e#27133#27134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/locks/AbstractQueuedSynchronizer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="1298" column="22" selection-start-line="1298" selection-start-column="22" selection-end-line="1298" selection-end-column="22" />
+          <folding>
+            <element signature="e#22933#22934#0" expanded="true" />
+            <element signature="e#22965#22966#0" expanded="true" />
+            <element signature="e#44444#44445#0" expanded="true" />
+            <element signature="e#44501#44502#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/Collection.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="131">
+          <caret line="138" column="18" lean-forward="true" selection-start-line="138" selection-start-column="18" selection-end-line="138" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadLocal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/LinkedBlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="76" column="13" selection-start-line="76" selection-start-column="13" selection-end-line="76" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/lang/Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="454">
+          <caret line="62" column="47" selection-start-line="62" selection-start-column="38" selection-end-line="62" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/LinkedBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="249" column="24" lean-forward="true" selection-start-line="249" selection-start-column="24" selection-end-line="249" selection-end-column="24" />
+          <folding>
+            <element signature="e#7388#7389#0" expanded="true" />
+            <element signature="e#7427#7428#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/locks/ReentrantLock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="263" column="78" lean-forward="true" selection-start-line="260" selection-start-column="7" selection-end-line="263" selection-end-column="78" />
+          <folding>
+            <element signature="e#8451#8452#0" expanded="true" />
+            <element signature="e#8515#8516#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/ArrayBlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="82" column="24" lean-forward="true" selection-start-line="82" selection-start-column="24" selection-end-line="82" selection-end-column="24" />
+          <folding>
+            <element signature="e#3652#3653#0" expanded="true" />
+            <element signature="e#3708#3709#0" expanded="true" />
+            <element signature="e#6812#6813#0" expanded="true" />
+            <element signature="e#6849#6850#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/lang/Thread.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="1315" column="6" lean-forward="true" selection-start-line="1307" selection-start-column="7" selection-end-line="1315" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/Comparator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1885">
+          <caret line="108" column="17" selection-start-line="108" selection-start-column="17" selection-end-line="108" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/PriorityBlockingQueue.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="254">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <caret line="219" column="39" selection-start-line="219" selection-start-column="39" selection-end-line="219" selection-end-column="39" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/BlockingDeque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-517">
+          <caret line="199" column="30" selection-start-line="199" selection-start-column="17" selection-end-line="199" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/ConcurrentLinkedQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="188">
+          <caret line="104" column="34" selection-start-line="104" selection-start-column="13" selection-end-line="104" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/CountDownLatch.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="191">
+          <caret line="197" column="35" selection-start-line="197" selection-start-column="30" selection-end-line="197" selection-end-column="35" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="e#5229#5230#0" expanded="true" />
+            <element signature="e#5268#5269#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Shiro/NewAuthenticationToken.java">
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/AbstractQueue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="153">
+          <caret line="63" column="35" selection-start-line="63" selection-start-column="22" selection-end-line="63" selection-end-column="35" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/controller/TestShiroController.java">
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/Queue.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="217">
-          <caret line="50" column="30" lean-forward="true" selection-start-line="50" selection-start-column="30" selection-end-line="50" selection-end-column="30" />
+        <state relative-caret-position="153">
+          <caret line="143" column="17" selection-start-line="143" selection-start-column="17" selection-end-line="143" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/Deque.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="192" column="22" selection-start-line="192" selection-start-column="17" selection-end-line="192" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/ProgramFiles/Java/jdk1.8/src.zip!/java/util/concurrent/BlockingQueue.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="179" column="30" selection-start-line="179" selection-start-column="17" selection-end-line="179" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/TrainTickets.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" column="20" selection-start-line="10" selection-start-column="12" selection-end-line="10" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Thread/MyThreadPool.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
           <folding>
             <element signature="imports" expanded="true" />
+            <element signature="method#MyThreadPool#0;class#MyThreadPool#0" />
+            <element signature="class#Producer#0;class#MyThreadPool#0" />
+            <element signature="method#create#0;class#Producer#0;class#MyThreadPool#0" />
+            <element signature="class#Consumer#0;class#MyThreadPool#0" />
+            <element signature="method#start#0;class#MyThreadPool#0" />
+            <element signature="class#MyArrAyBlockingQueue#0;class#MyThreadPool#0" />
+            <element signature="class#MySynchronousQueue#0;class#MyThreadPool#0" />
+            <element signature="class#MyPriorityBlockingQueue#0;class#MyThreadPool#0" />
+            <element signature="e#3889#3890#0" expanded="true" />
+            <element signature="e#3949#3950#0" expanded="true" />
+            <element signature="class#MySemaphore#0;class#MyThreadPool#0" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Shiro/MyRealm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="67" column="56" selection-start-line="67" selection-start-column="33" selection-end-line="67" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/yq/Shiro/AuthFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="684">
-          <caret line="84" column="27" selection-start-line="84" selection-start-column="22" selection-end-line="84" selection-end-column="27" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/未完成.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="16" column="36" selection-start-line="16" selection-start-column="36" selection-end-line="16" selection-end-column="36" />
         </state>
       </provider>
     </entry>
@@ -573,7 +709,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>11</last-edited>
+          <last-edited>1.8</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
