@@ -1,7 +1,7 @@
 # test
-#该项目主要是学习使用，会保存一部分代码。
+# 该项目主要是学习使用，会保存一部分代码。
 
-#如果连接失效，请点击：https://blog.csdn.net/qq_40053836
+# 如果连接失效，请点击：https://blog.csdn.net/qq_40053836
 
 java并发编程之队列：https://blog.csdn.net/qq_40053836/article/details/99983241
 
